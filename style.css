@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap'); 
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+ width:100%;
+    height: 70vh;
+    overflow:hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.header-image{
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.header-image img{
+    width: 100%;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: azure;
+    font-size: 2.1rem;
+margin: 0 35px;
+font-weight: bold;
+}
+.nav-bar{
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    gap: 2rem;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+}
+.head img{
+    width: 30%;
+    height: 10%;
+}
+.head h3{
+    font-size: 2.3rem;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+/* .location{
+    /* display: flex;
+    width: 30%;
+    align-items: center;
+    border: 1%;
+    background-color:whitesmoke;
+    padding: 4px 5px;
+    margin-right: 10%;
+    padding-left: 40px; --//
+    display: flex;
+    width: 30%;
+    align-items: center;
+    background-color: white;
+    margin-right: 10%;
+    padding: 4px 5px;
+}
+.location .location-item{
+display: flex;
+align-items: center;
+
+}
+.location .location-item p{
+    color: black;
+    border-right: 1px solid black;
+    font-size: 21px;
+
+}
+.search{
+    margin-left: 30%;
+} */
+
+.s1{
+display: flex;
+justify-content: center;
+justify-content: center;
+}
+.s1  .section-1-item{
+position: relative;
+width: 30rem;
+margin: 3px 5px;
+overflow: hidden;
+border-radius: 5%;}
+
+.s1 .section-1-item img{
+/* width: 100px; */
+border: 1px solid white;
+z-index:-1;
+    border-radius: 15px;
+    width: 30rem;
+}
+
+
+.item-d{
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    border-radius: 15px 15px;
+    background-color: white;
+    font-size: 1.4rem;
+}
+  
+.s-2{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.s-2 .s-2-heading{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.s-2 .s-2-container .s-2-items{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.s-2 .s-2-container .s-2-items .s-2-item{
+    width: 100%;
+    max-width: 26%;
+    margin-bottom: 20px;
+}
+.s-2-item{
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(236, 236, 236);
+    padding: 20px;
+}
+.s-2-item .i-head{
+    font-size: 1.5rem;
+    color: black;
+}
+.s-3{
+    height: 100%px;
+    background-color: rgb(255, 254, 234);
+}
+.s-3-container{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.s-3-img{
+  height: 2%;
+}
+.s-3 img img {
+width: 400px;
+
+}
+.s-3-content{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin: 0;
+    
+}
